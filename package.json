@@ -1,0 +1,17 @@
+{
+  "name": "programmers-clone-coding",
+  "version": "1.0.0",
+  "description": "[원본 사이트](https://programmers.co.kr/)   [클론 사이트](https://regal-elf-dc82c9.netlify.app/)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.56.1"
+  }
+}
