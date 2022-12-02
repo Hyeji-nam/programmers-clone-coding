@@ -45,6 +45,17 @@ new Swiper ('.recommend-lecture__items .swiper-container', {
    }
 })
 
+// mobile ver
+new Swiper ('.m-recommend-lecture__items .swiper-container', {
+    spaceBetween: 20,
+    slidesPerView: 1,
+    loop: true,
+    navigation: {
+        prevEl: '.m-recommend-lecture__items .nav-left',
+        nextEl: '.m-recommend-lecture__items .nav-right'
+   }
+})
+
 new Swiper ('.other-position__items .swiper-container', {
     spaceBetween: 32,
     slidesPerView: 3,
@@ -64,6 +75,17 @@ new Swiper ('.other-position__items .swiper-container', {
             }
         }
        }
+})
+
+// mobile ver
+new Swiper ('.m-other-position__items .swiper-container', {
+    spaceBetween: 32,
+    slidesPerView: 1,
+    loop: true,
+    navigation: {
+        prevEl: '.m-other-position__items .nav-left',
+        nextEl: '.m-other-position__items .nav-right'
+    }
 })
 
 const familySiteEl = document.querySelector('.family-site')
