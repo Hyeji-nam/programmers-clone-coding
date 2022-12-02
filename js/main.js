@@ -56,6 +56,27 @@ new Swiper ('.m-recommend-lecture__items .swiper-container', {
    }
 })
 
+new Swiper ('.m-recruit-right__items .swiper-container', {
+    spaceBetween: 20,
+    slidesPerView: 1,
+    navigation: {
+        prevEl: '.m-recruit-right__items .nav-left',
+        nextEl: '.m-recruit-right__items .nav-right'
+   },
+   on: {
+    activeIndexChange: function () {
+        if (this.realIndex == 0) {
+            this.allowSlidePrev = false
+        } else if (this.realIndex == -1) {
+            this.allowSlideNext = false
+        } else {
+            this.allowSlidePrev = true
+            this.allowSlideNext = true
+        }
+    }
+   }
+})
+
 new Swiper ('.other-position__items .swiper-container', {
     spaceBetween: 32,
     slidesPerView: 3,
