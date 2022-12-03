@@ -45,7 +45,7 @@ new Swiper ('.recommend-lecture__items .swiper-container', {
    }
 })
 
-// mobile ver
+// mobile recommend lecture items
 new Swiper ('.m-recommend-lecture__items .swiper-container', {
     spaceBetween: 20,
     slidesPerView: 1,
@@ -56,6 +56,7 @@ new Swiper ('.m-recommend-lecture__items .swiper-container', {
    }
 })
 
+// mobile recruit right items
 new Swiper ('.m-recruit-right__items .swiper-container', {
     spaceBetween: 20,
     slidesPerView: 1,
@@ -98,7 +99,7 @@ new Swiper ('.other-position__items .swiper-container', {
        }
 })
 
-// mobile ver
+// mobile other position items
 new Swiper ('.m-other-position__items .swiper-container', {
     spaceBetween: 32,
     slidesPerView: 1,
@@ -106,6 +107,17 @@ new Swiper ('.m-other-position__items .swiper-container', {
     navigation: {
         prevEl: '.m-other-position__items .nav-left',
         nextEl: '.m-other-position__items .nav-right'
+    }
+})
+
+// tablet other position items
+new Swiper ('.t-other-position__items .swiper-container', {
+    spaceBetween: 32,
+    slidesPerView: 2,
+    loop: true,
+    navigation: {
+        prevEl: '.t-other-position__items .nav-left',
+        nextEl: '.t-other-position__items .nav-right'
     }
 })
 
