@@ -3,7 +3,7 @@
 
 ## 기술 스택
 
-`html`, `css`, `javascript`
+`html`, `scss`, `javascript`
 
 
 ## 특징
